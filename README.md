@@ -1,16 +1,65 @@
-# React + Vite
+# 🌤 Live Weather Report App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and beautiful Weather Application built using **React JS**.  
+This app fetches real-time weather data using the OpenWeather API and displays temperature, humidity, pressure, condition, and current date.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🌡 Shows Temperature (°C)
+- 💧 Displays Humidity
+- 🔵 Shows Pressure
+- ☁ Weather Condition
+- 📅 Current Date Display
+- 🎨 Sky Blue Modern UI
+- 🔍 Search by City Name
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React JS
+- JavaScript (ES6)
+- CSS3
+- OpenWeather API
+
+---
+
+## 📁 Project Structure
+weather-app/
+│
+├── public/
+│ └── index.html
+│
+├── src/
+│ ├── App.js
+│ ├── App.css
+│ ├── index.js
+│ └── assets/ (optional)
+│
+├── package.json
+├── package-lock.json
+└── README.md
+
+
+---
+
+## 📦 Installation & Setup
+
+1️⃣ Clone the repository:
+
+```bash
+git clone https://github.com/your-username/weather-app.git
+
+cd weather-app
+npm start
+
+const API_KEY = "a1302b74da784142c7f25a822b03ab70";
+
+
+output :
+
+<img width="1581" height="833" alt="image" src="https://github.com/user-attachments/assets/d4de945f-d811-49df-a549-947f60dca86a" />
+<img width="1170" height="780" alt="image" src="https://github.com/user-attachments/assets/8a9a0564-8185-4fdd-b435-2d71d3756bf3" />
+
